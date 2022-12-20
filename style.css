@@ -1,3 +1,23 @@
 * {
-    background-color: rgb(163, 191, 233);
+    background-color: lightpink;
 }
+
+h1 {
+    color: #621141;
+    text-align: center;
+}
+
+h2 {
+    color:#621141;    
+}
+
+em{
+    font-size: larger; 
+    font-weight: bold;
+}
+
+
+.edu { 
+    font-size: larger;
+    font-style: italic;
+ }
