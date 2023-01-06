@@ -24,7 +24,7 @@ body{
 
 .portfolio .portfolio_left{
     width: 35%;
-    background: #26252d;   
+    background: #313039;   
 }
 
 .portfolio .portfolio_left .portfolio_image{
@@ -65,7 +65,7 @@ body{
     font-size: 16px;
     margin-bottom:10px ;
     letter-spacing: 4px;
-    
+       
 }
 
 .portfolio .portfolio_left .portfolio_hobbies{
@@ -192,6 +192,7 @@ body{
 .portfolio_title a{
     background-color: #1f84ba;
     color: white;
+    padding-left: 5px;
 }
 
 
