@@ -1,23 +1,208 @@
-* {
-    background-color: lightpink;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
 }
 
-h1 {
-    color: #621141;
+body{
+    background: #c4c4c4;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+.portfolio{
+    display: flex;
+    width: 800px;
+    margin: 50px;
+    background: #fff;
+    padding: 10px;
+}
+
+.portfolio .portfolio_left{
+    width: 35%;
+    background: #26252d;   
+}
+
+.portfolio .portfolio_left .portfolio_image{
+    width: 100%;
+}
+
+.portfolio .portfolio_left .portfolio_image img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.portfolio_bottom {
+    padding-left: 5px;
+}
+
+.portfolio .portfolio_title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom:10px ;
+    letter-spacing: 4px;
+    
+}
+
+.portfolio .portfolio_left .portfolio_info{
+    color:#84838b;
+}
+
+.portfolio .portfolio_left .portfolio_bottom{
+    padding: 20 px 30px;
+}
+
+.portfolio .portfolio_item{
+    padding: 20px 0;
+    border-bottom: 1px solid #0175b2;
+}
+
+.portfolio .portfolio_item:last-child{
+    border-bottom: 0px;
+}
+
+.portfolio .portfolio_left .portfolio_nameocc{
+    display: none;
+}
+
+.portfolio .portfolio_nameocc .name{
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    letter-spacing: 4px;
+}
+
+.portfolio .portfolio_left .portfolio_nameocc .occ{
+    color: #84838b;
+}
+
+.portfolio .portfolio_left .portfolio_contact .portfolio_info:last-child{
+    margin-top: 10px;
+}
+
+.portfolio .portfolio_left .portfolio_contact .portfolio_subtitle{
+    color: #fff;
+    margin-bottom: 2px;
+}
+
+.portfolio .portfolio_left .portfolio_skills .skills_list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+
+.portfolio .portfolio_left .portfolio_skills .skills_list .skills_bar p{
+    position: relative;
+    width: 125px;
+    height: 20px;
+    background: #fff;
+}
+
+.portfolio .portfolio_left .portfolio_skills .skills_list .skills_bar p span{
+    position: apsolute;
+    top: 0;
+    left: 0;
+    background: #0175b2;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio .portfolio_right{
+    width: 65%;
+    padding: 20px 40px;
+}
+
+.portfolio .portfolio_right .portfolio_nameocc .name{
+    color: #26252d;
+    font-size: 32px;   
+}
+
+.portfolio .portfolio_right .portfolio_nameocc .occ{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.portfolio .portfolio_right .portfolio_item .portfolio_title{
+    color: #26252d;
+}
+
+
+.portfolio_title a{
+    background-color: #1f84ba;
+    height: 100px;
+    color: white;
+}
+
+
+.portfolio .portfolio_right .portfolio_data{
+    display: flex;
+}
+
+.portfolio .portfolio_right .portfolio_data .year{
+    padding-right: 35px;
+    position: relative;
+    flex:1;
+}
+
+.portfolio .portfolio_right .portfolio_data .content{
+    padding-left: 35px;
+    margin-bottom: 20px;
+    flex:2;
+}
+
+.portfolio .portfolio_right .portfolio_data .year:before{
+    content: "";
+    position:absolute;
+    top: 5px;
+    right: 0px;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 1px solid #2625ed;
+    border-radius: 50%;
+}
+
+.portfolio .portfolio_right .portfolio_data .year:after{
+    content: "";
+    position: absolute;
+    top: 17px;
+    right: 4px;
+    width: 3px;
+    height: 90%;
+    background: #0175b2;
+}
+
+.portfolio .portfolio_right .portfolio_data:last-child .year:after{
+    display: none;
+}
+
+.portfolio .portfolio_right .portfolio_interests .portfolio_info{
+    display: flex;
+    justify-content: space-between;
     text-align: center;
 }
 
-h2 {
-    color:#621141;    
+.portfolio .portfolio_right .portfolio_interests .interests .interests_icon{
+    font-size: 38px;
+    color: #0175b2;
+    margin-bottom: 10px;
 }
 
-em{
-    font-size: larger; 
-    font-weight: bold;
+@media screen and (max-width:800px){
+    .portfolio .portfolio_right .portfolio_nameocc{
+        display: none;
+    }
+    .portfolio .portfolio_left .portfolio_nameocc{
+        display: block;
+    }
 }
-
-
-.edu { 
-    font-size: larger;
-    font-style: italic;
- }
