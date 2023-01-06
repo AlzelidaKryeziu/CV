@@ -38,17 +38,29 @@ body{
 }
 
 .portfolio_bottom {
-    padding-left: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about_me {
+    text-align: justify;
 }
 
 .portfolio_bottom .portfolio_item .portfolio_interests{
     padding-left: 5px;
 }
 
+.portfolio_bottom .portfolio_information{
+    color: #c4c4c4;
+}
+
+.portfolio_profile p{
+    color: #c4c4c4;
+    
+}
 
 .portfolio .portfolio_title{
     color: #fff;
-    text-transform: uppercase;
     font-weight: bold;
     font-size: 16px;
     margin-bottom:10px ;
@@ -59,7 +71,7 @@ body{
 .portfolio .portfolio_left .portfolio_hobbies{
     color:#84838b;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .portfolio .portfolio_left .portfolio_bottom{
@@ -89,7 +101,7 @@ body{
 }
 
 .portfolio .portfolio_left .portfolio_nameocc .occ{
-    color: #84838b;
+    color: #c4c4c4;
 }
 
 .portfolio .portfolio_left .portfolio_contact .portfolio_info:last-child{
@@ -159,15 +171,26 @@ body{
     text-transform: uppercase;
 }
 
+.prt_skills.portfolio_title {
+    width: 100%;
+}
+
+
 .prt_skills.portfolio_title a{
     color: #fff;
     background-color: #0175b2;
 }
 
+.prt_title_width {
+    width: 280px;
+    height: 30px;
+    background-color: #1f84ba;
+    display: flex;
+    align-items: center;
+}
 
 .portfolio_title a{
     background-color: #1f84ba;
-    height: 100px;
     color: white;
 }
 
