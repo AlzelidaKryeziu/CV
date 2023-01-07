@@ -155,6 +155,21 @@ body{
     width: 15%;
 }
 
+.skills_bar .skills_teamwork{
+    width: 65%;
+}
+
+.skills_bar .skills_creativity{
+    width: 55%;
+}
+
+.skills_bar .skills_organization{
+    width: 45%;
+}
+
+.skills_bar .skills_punctuality{
+    width: 75%;
+}
 
 .portfolio .portfolio_right{
     width: 65%;
