@@ -199,13 +199,13 @@ body{
 .prt_title_width {
     width: 280px;
     height: 30px;
-    background-color: #1f84ba;
+    background-color: #0175b2;
     display: flex;
     align-items: center;
 }
 
 .portfolio_title a{
-    background-color: #1f84ba;
+    background-color: #0175b2;
     color: white;
     padding-left: 5px;
 }
@@ -251,26 +251,4 @@ body{
 
 .portfolio .portfolio_right .portfolio_data:last-child .year:after{
     display: none;
-}
-
-.portfolio .portfolio_right .portfolio_interests .portfolio_info{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-
-.portfolio .portfolio_right .portfolio_interests .interests .interests_icon{
-    font-size: 38px;
-    color: #0175b2;
-    margin-bottom: 10px;
-    
-}
-
-@media screen and (max-width:800px){
-    .portfolio .portfolio_right .portfolio_nameocc{
-        display: none;
-    }
-    .portfolio .portfolio_left .portfolio_nameocc{
-        display: block;
-    }
 }
