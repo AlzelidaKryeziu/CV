@@ -46,6 +46,22 @@ body{
     text-align: justify;
 }
 
+a:link {
+    color: #c4c4c4;
+  }
+  
+  a:visited {
+    color: purple;
+  }
+  
+  a:hover {
+    color: lightcyan;
+  }
+  
+  a:active {
+    color: blue;
+  }
+
 .portfolio_bottom .portfolio_item .portfolio_interests{
     padding-left: 5px;
 }
