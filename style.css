@@ -14,7 +14,7 @@ body{
     
 }
 
-.portfolio{
+.cv{
     display: flex;
     width: 800px;
     margin: 50px;
@@ -22,22 +22,22 @@ body{
     padding: 10px;
 }
 
-.portfolio .portfolio_left{
+.cv .cv_left{
     width: 35%;
     background: #313039;   
 }
 
-.portfolio .portfolio_left .portfolio_image{
+.cv .cv_left .cv_image{
     width: 100%;
 }
 
-.portfolio .portfolio_left .portfolio_image img{
+.cv .cv_left .cv_image img{
     width: 100%;
     height: 300px;
     object-fit: cover;
 }
 
-.portfolio_bottom {
+.cv_bottom {
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -62,20 +62,20 @@ a:link {
     color: blue;
   }
 
-.portfolio_bottom .portfolio_item .portfolio_interests{
+.cv_bottom .cv_item .cv_interests{
     padding-left: 5px;
 }
 
-.portfolio_bottom .portfolio_information{
+.cv_bottom .cv_information{
     color: #c4c4c4;
 }
 
-.portfolio_profile p{
+.cv_profile p{
     color: #c4c4c4;
     
 }
 
-.portfolio .portfolio_title{
+.cv .cv_title{
     color: #fff;
     font-weight: bold;
     font-size: 16px;
@@ -84,30 +84,30 @@ a:link {
        
 }
 
-.portfolio .portfolio_left .portfolio_hobbies{
+.cv .cv_left .cv_hobbies{
     color:#84838b;
     display: flex;
     justify-content: space-around;
 }
 
-.portfolio .portfolio_left .portfolio_bottom{
+.cv .cv_left .cv_bottom{
     padding: 20 px 30px;
 }
 
-.portfolio .portfolio_item{
+.cv .cv_item{
     padding: 20px 0;
     border-bottom: 1px solid #0175b2;
 }
 
-.portfolio .portfolio_item:last-child{
+.cv .cv_item:last-child{
     border-bottom: 0px;
 }
 
-.portfolio .portfolio_left .portfolio_nameocc{
+.cv .cv_left .cv_nameocc{
     display: none;
 }
 
-.portfolio .portfolio_nameocc .name{
+.cv .cv_nameocc .name{
     font-size: 20px;
     color: #fff;
     text-transform: uppercase;
@@ -116,21 +116,21 @@ a:link {
     letter-spacing: 4px;
 }
 
-.portfolio .portfolio_left .portfolio_nameocc .occ{
+.cv .cv_left .cv_nameocc .occ{
     color: #c4c4c4;
 }
 
-.portfolio .portfolio_left .portfolio_contact .portfolio_info:last-child{
+.cv .cv_left .cv_contact .cv_info:last-child{
     margin-top: 10px;
 }
 
-.portfolio .portfolio_left .portfolio_contact .portfolio_subtitle{
+.cv .cv_left .cv_contact .cv_subtitle{
     color: #fff;
     margin-bottom: 2px;
 }
 
 
-.portfolio .portfolio_right .portfolio_skills .skills_list{
+.cv .cv_right .cv_skills .skills_list{
     display: flex;
     margin-bottom: 5px;
 }
@@ -148,7 +148,7 @@ a:link {
 }
 
 
-.portfolio .portfolio_right .portfolio_skills .skills_list .skills_bar p{
+.cv .cv_right .cv_skills .skills_list .skills_bar p{
     position: relative;
     height: 20px;
     background: #0175b2; 
@@ -187,27 +187,27 @@ a:link {
     width: 75%;
 }
 
-.portfolio .portfolio_right{
+.cv .cv_right{
     width: 65%;
     padding: 20px 40px;
 }
 
-.portfolio .portfolio_right .portfolio_nameocc .name{
+.cv .cv_right .cv_nameocc .name{
     color: #26252d;
     font-size: 32px;   
 }
 
-.portfolio .portfolio_right .portfolio_nameocc .occ{
+.cv .cv_right .cv_nameocc .occ{
     font-size: 14px;
     text-transform: uppercase;
 }
 
-.prt_skills.portfolio_title {
+.prt_skills.cv_title {
     width: 100%;
 }
 
 
-.prt_skills.portfolio_title a{
+.prt_skills.cv_title a{
     color: #fff;
     
 }
@@ -220,30 +220,30 @@ a:link {
     align-items: center;
 }
 
-.portfolio_title a{
+.cv_title a{
     background-color: #0175b2;
     color: white;
     padding-left: 5px;
 }
 
 
-.portfolio .portfolio_right .portfolio_data{
+.cv .cv_right .cv_data{
     display: flex;
 }
 
-.portfolio .portfolio_right .portfolio_data .year{
+.cv .cv_right .cv_data .year{
     padding-right: 35px;
     position: relative;
     flex:1;
 }
 
-.portfolio .portfolio_right .portfolio_data .content{
+.cv .cv_right .cv_data .content{
     padding-left: 35px;
     margin-bottom: 20px;
     flex:2;
 }
 
-.portfolio .portfolio_right .portfolio_data .year:before{
+.cv .cv_right .cv_data .year:before{
     content: "";
     position:absolute;
     top: 5px;
@@ -255,7 +255,7 @@ a:link {
     border-radius: 50%;
 }
 
-.portfolio .portfolio_right .portfolio_data .year:after{
+.cv .cv_right .cv_data .year:after{
     content: "";
     position: absolute;
     top: 17px;
@@ -265,6 +265,6 @@ a:link {
     background: #0175b2;
 }
 
-.portfolio .portfolio_right .portfolio_data:last-child .year:after{
+.cv .cv_right .cv_data:last-child .year:after{
     display: none;
 }
