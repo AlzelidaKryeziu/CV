@@ -1,3 +1,3 @@
-# Portfolio
- portfolio website
-https://alzelidakryeziu.github.io/portfolio/
+# CV
+ CV website
+https://alzelidakryeziu.github.io/CV/
